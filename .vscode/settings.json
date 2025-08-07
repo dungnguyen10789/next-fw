@@ -1,0 +1,40 @@
+{
+  "editor.formatOnSave": true,
+  "files.autoSaveDelay": 100,
+  "editor.fontSize": 13,
+  "editor.fontFamily": "Menlo",
+  "editor.wordWrap": "bounded",
+  "editor.wordWrapColumn": 100,
+  "javascript.validate.enable": true,
+  "diffEditor.renderSideBySide": true,
+  "terminal.integrated.fontSize": 13,
+  // "terminal.integrated.fontFamily": "Courier",
+  "workbench.iconTheme": "vscode-icons",
+  "cSpell.userWords": ["Reactotron"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "[handlebars]": {
+    "editor.formatOnSave": false
+  },
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+  "cSpell.words": [],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "todohighlight.keywordsPattern": "TODO:|FIXME:|NOTE:|IMPORTANT",
+  "editor.suggestSelection": "first",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+  // "search.useIgnoreFiles": false,
+  // "search.exclude": {
+  //   "**/node_modules": false
+  // }
+}

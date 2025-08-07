@@ -1,0 +1,11 @@
+interface Props extends React.PropsWithChildren {}
+
+export const {{pascalCase name}}: React.FC<Props> = () => {
+  return (
+    <div>
+      This is {{pascalCase name}} component
+    </div>
+  )
+};
+
+{{pascalCase name}}.displayName = 'Component.{{pascalCase name}}';
