@@ -1,12 +1,9 @@
 'use client';
 
-import { useQuery } from '@tanstack/react-query';
 import Image from 'next/image';
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 
 import { PageContainer } from '@/components/common/PageContainer';
-
-import { imageData } from './data';
 
 const LoginByPhone = () => {
   // const query = useQuery({
@@ -90,7 +87,7 @@ const LoginByPhone = () => {
             padding: '1rem',
           }}
         >
-          <button
+          {/* <button
             title="make order"
             type="button"
             color="white"
@@ -109,77 +106,40 @@ const LoginByPhone = () => {
             }}
           >
             support
-          </button>
+          </button> */}
 
-          <button
-            title="make order"
-            type="button"
-            color="white"
-            style={{ marginRight: '2rem' }}
-            onClick={() => {
-              window.ReactNativeWebView?.postMessage(
-                JSON.stringify({
-                  event: 'link_to',
-                  payload: {
-                    noDismiss: false,
-                    linkingPath: '/chat_messages?targetUserId=8933669415691170',
-                  },
-                })
-              );
-            }}
-          >
-            chat_messages
-          </button>
-          <button
-            title="make order"
-            type="button"
-            color="white"
-            style={{ marginRight: '2rem' }}
-            onClick={() => {
-              const payload = {
-                content: `
-                  <>
-                    <h1>This is title</h1>
-                    <h2 style="color: red">This is subtitle</h2>
-                    <p>
-                      PHP developers all over the world are building incredible mobile
-                      experiences with the skills they already possess. In just a few hours you
-                      can build an app and have it submitted to the app stores for review.
-                    </p>
-                  </>
-                `,
-                base64: [imageData],
-              };
-              window.ReactNativeWebView?.postMessage(
-                JSON.stringify({
-                  event: 'share',
-                  payload,
-                })
-              );
-            }}
-          >
-            share
-          </button>
-          <button
-            title="make order"
-            type="button"
-            color="white"
-            onClick={() => {
-              window.ReactNativeWebView?.postMessage(
-                JSON.stringify({
-                  event: 'make_order',
-                  noDismiss: true,
-                  payload: {
-                    product_id: '755aba68-7f5a-42f7-9d87-16235082f8b5',
-                    product_type: '0',
-                    action: 'add_to_cart',
-                  },
-                })
-              );
-            }}
-          >
-            add to cart
-          </button>
+
+          <div>
+            <a href={"https://droppiistaging.onelink.me/wTzV/recruitmentads"}>recruitment ads</a>
+          </div>
+
+
+          <div>
+            <a href={"https://droppiistaging.onelink.me/wTzV/giftads?id=1349e2ec-699b-4918-9c05-eaf53902e59f"}>gift ads</a>
+          </div>
+
+          <div>
+            <a href={"https://droppiistaging.onelink.me/wTzV/giftads"}>gift ads without giftId</a>
+          </div>
+
+          <div>
+            <a href={"https://droppiistaging.onelink.me/wTzV/voucherads?id=7e582d4c-6921-4c1f-ad0e-85350d1cd34b"}>voucher ads</a>
+          </div>
+
+
+          <div>
+            <a href={"https://droppiistaging.onelink.me/wTzV/voucherads"}>voucher ads without voucherId</a>
+          </div>
+
+          <div>
+            <a href={"https://droppiistaging.onelink.me/wTzV/productads?id=91de15e8-50a8-46bc-9c61-840fa7f6a8c6&productType=0"}>product ads</a>
+          </div>
+
+          <div>
+            <a href={"https://droppiistaging.onelink.me/wTzV/productads"}>product ads without productType</a>
+          </div>
+
+
         </div>
         This is login by phone page
       </div>
@@ -190,3 +150,5 @@ const LoginByPhone = () => {
 LoginByPhone.displayName = 'LoginByPhone';
 
 export default LoginByPhone;
+
+// https://droppiistaging.onelink.me/wTzV/recruitmentads
