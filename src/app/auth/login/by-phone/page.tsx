@@ -29,7 +29,7 @@ const LoginByPhone = () => {
   //   }
   // }
 
-  const onMessage = event => {
+  const onMessage = () => {
     // try {
     //   const obj = JSON.parse(event.data);
     //   if (obj.event === 'product_added_to_cart') {
