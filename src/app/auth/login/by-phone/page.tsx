@@ -115,28 +115,28 @@ const LoginByPhone = () => {
 
 
           <div>
-            <a href={"https://droppiistaging.onelink.me/wTzV/giftads?id=1349e2ec-699b-4918-9c05-eaf53902e59f"}>gift ads</a>
+            <a href={"https://droppiistaging.onelink.me/wTzV/giftads?id=1349e2ec-699b-4918-9c05-eaf53902e59f&campaign_id=test-campaign-id"}>gift ads</a>
           </div>
 
           <div>
-            <a href={"https://droppiistaging.onelink.me/wTzV/giftads"}>gift ads without giftId</a>
+            <a href={"https://droppiistaging.onelink.me/wTzV/giftads?campaign_id=test-campaign-id"}>gift ads without giftId</a>
           </div>
 
           <div>
-            <a href={"https://droppiistaging.onelink.me/wTzV/voucherads?id=7e582d4c-6921-4c1f-ad0e-85350d1cd34b"}>voucher ads</a>
+            <a href={"https://droppiistaging.onelink.me/wTzV/voucherads?id=7e582d4c-6921-4c1f-ad0e-85350d1cd34b&campaign_id=test-campaign-id"}>voucher ads</a>
           </div>
 
 
           <div>
-            <a href={"https://droppiistaging.onelink.me/wTzV/voucherads"}>voucher ads without voucherId</a>
+            <a href={"https://droppiistaging.onelink.me/wTzV/voucherads?campaign_id=test-campaign-id"}>voucher ads without voucherId</a>
           </div>
 
           <div>
-            <a href={"https://droppiistaging.onelink.me/wTzV/productads?id=91de15e8-50a8-46bc-9c61-840fa7f6a8c6&productType=0"}>product ads</a>
+            <a href={"https://droppiistaging.onelink.me/wTzV/productads?id=91de15e8-50a8-46bc-9c61-840fa7f6a8c6&productType=0&campaign_id=test-campaign-id"}>product ads</a>
           </div>
 
           <div>
-            <a href={"https://droppiistaging.onelink.me/wTzV/productads"}>product ads without productType</a>
+            <a href={"https://droppiistaging.onelink.me/wTzV/productads?campaign_id=test-campaign-id"}>product ads without productType</a>
           </div>
 
 
