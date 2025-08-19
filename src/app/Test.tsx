@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 'use client';
 
 import Image from 'next/image';
@@ -29,7 +30,7 @@ export const TestComponent = () => {
       <button
         title="press me"
         onClick={() => {
-          window.ReactNativeWebView?.postMessage(
+          (window as any).ReactNativeWebView?.postMessage(
             JSON.stringify({
               event: 'link_to',
               noDismiss: true,
@@ -48,7 +49,7 @@ export const TestComponent = () => {
       <button
         title="press me"
         onClick={() => {
-          window.ReactNativeWebView?.postMessage(
+          (window as any).ReactNativeWebView?.postMessage(
             JSON.stringify({
               event: 'link_to',
               noDismiss: true,
