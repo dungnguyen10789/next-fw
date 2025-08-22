@@ -141,7 +141,7 @@ const LoginByPhone = () => {
 
 
           <div>
-            <a href={"https://link.droppii.vn/BXy4//recruitmentads"}>recruitment ads prod</a>
+            <a href={"https://link.droppii.vn/BXy4/recruitmentads"}>recruitment ads prod</a>
           </div>
 
 
