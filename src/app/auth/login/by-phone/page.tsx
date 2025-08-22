@@ -141,20 +141,20 @@ const LoginByPhone = () => {
 
 
           <div>
-            <a href={"https://droppiistaging.onelink.me/BXy4/recruitmentads"}>recruitment ads prod</a>
+            <a href={"https://link.droppii.vn/BXy4//recruitmentads"}>recruitment ads prod</a>
           </div>
 
 
           <div>
-            <a href={"https://droppiistaging.onelink.me/BXy4/giftads?id=f7c0c482-d5f8-4d82-862e-c2cc1878d0c7&campaign_id=quang-doi-test-my-bo"}>gift ads prod</a>
+            <a href={"https://link.droppii.vn/BXy4/giftads?id=f7c0c482-d5f8-4d82-862e-c2cc1878d0c7&campaign_id=quang-doi-test-my-bo"}>gift ads prod</a>
           </div>
 
           <div>
-            <a href={"https://droppiistaging.onelink.me/BXy4/voucherads?id=826b3edb-baac-4ee5-b953-daed8d9b6394&campaign_id=quang-doi-test-my-bo"}>voucher ads prod</a>
+            <a href={"https://link.droppii.vn/BXy4/voucherads?id=826b3edb-baac-4ee5-b953-daed8d9b6394&campaign_id=quang-doi-test-my-bo"}>voucher ads prod</a>
           </div>
 
           <div>
-            <a href={"https://droppiistaging.onelink.me/BXy4/productads?id=91de15e8-50a8-46bc-9c61-840fa7f6a8c6&productType=0&campaign_id=quang-doi-test-my-bo"}>product ads prod</a>
+            <a href={"https://link.droppii.vn/BXy4/productads?id=91de15e8-50a8-46bc-9c61-840fa7f6a8c6&productType=0&campaign_id=quang-doi-test-my-bo"}>product ads prod</a>
           </div>
 
         </div>
